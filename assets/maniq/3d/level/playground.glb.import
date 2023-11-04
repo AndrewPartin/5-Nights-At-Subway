@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cv6kye2bxl8a1"
-path="res://.godot/imported/playground.glb-101a2a181241ab1c31cf70786e40e839.scn"
+path="res://.godot/imported/playground.glb-30473bc9b4de19f269218894d637839d.scn"
 
 [deps]
 
-source_file="res://assests/maniq/3d/level/playground.glb"
-dest_files=["res://.godot/imported/playground.glb-101a2a181241ab1c31cf70786e40e839.scn"]
+source_file="res://assets/maniq/3d/level/playground.glb"
+dest_files=["res://.godot/imported/playground.glb-30473bc9b4de19f269218894d637839d.scn"]
 
 [params]
 

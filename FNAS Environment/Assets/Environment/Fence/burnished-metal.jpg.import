@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgje5px6654hd"
-path.s3tc="res://.godot/imported/burnished-metal.jpg-6541d58eb25ad6d2e6ce7d4577a1bca8.s3tc.ctex"
+path.s3tc="res://.godot/imported/burnished-metal.jpg-ebcc46a478ee9ba37442ed03a7e567b6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Environment/Fence/burnished-metal.jpg"
-dest_files=["res://.godot/imported/burnished-metal.jpg-6541d58eb25ad6d2e6ce7d4577a1bca8.s3tc.ctex"]
+source_file="res://FNAS Environment/Assets/Environment/Fence/burnished-metal.jpg"
+dest_files=["res://.godot/imported/burnished-metal.jpg-ebcc46a478ee9ba37442ed03a7e567b6.s3tc.ctex"]
 
 [params]
 

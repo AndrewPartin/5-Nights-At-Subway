@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://t61vva50gjrw"
-path="res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-d4792576a8b3cffbc24d15f10b09decd.mesh"
+path="res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-5f7a3aaa0f3bd7a7a2d101adc473360a.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-d4792576a8b3cffbc24d15f10b09decd.mesh"]
+files=["res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-5f7a3aaa0f3bd7a7a2d101adc473360a.mesh"]
 
-source_file="res://Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj"
-dest_files=["res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-d4792576a8b3cffbc24d15f10b09decd.mesh", "res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-d4792576a8b3cffbc24d15f10b09decd.mesh"]
+source_file="res://FNAS Environment/Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj"
+dest_files=["res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-5f7a3aaa0f3bd7a7a2d101adc473360a.mesh", "res://.godot/imported/Chevrolet_Camaro_SS_Low.obj-5f7a3aaa0f3bd7a7a2d101adc473360a.mesh"]
 
 [params]
 

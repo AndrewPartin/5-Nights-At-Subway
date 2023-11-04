@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di86psivlmic0"
-path.s3tc="res://.godot/imported/tree_dead-79b98224dc539ddcc4c4f7517edfd485_tree_bark_dark.png-8eade03a4ca9d1eac981bde9c6727097.s3tc.ctex"
+path.s3tc="res://.godot/imported/tree_dead-79b98224dc539ddcc4c4f7517edfd485_tree_bark_dark.png-6cc3cd6db155d9b79668905dd59f7429.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Assets/Environment/Trees/tree_dead-79b98224dc539ddcc4c4f7517edfd485_tree_bark_dark.png"
-dest_files=["res://.godot/imported/tree_dead-79b98224dc539ddcc4c4f7517edfd485_tree_bark_dark.png-8eade03a4ca9d1eac981bde9c6727097.s3tc.ctex"]
+source_file="res://assets/Environment/Trees/tree_dead-79b98224dc539ddcc4c4f7517edfd485_tree_bark_dark.png"
+dest_files=["res://.godot/imported/tree_dead-79b98224dc539ddcc4c4f7517edfd485_tree_bark_dark.png-6cc3cd6db155d9b79668905dd59f7429.s3tc.ctex"]
 
 [params]
 

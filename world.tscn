@@ -1,7 +1,8 @@
-[gd_scene load_steps=19 format=3 uid="uid://ga4brol6kes6"]
+[gd_scene load_steps=20 format=3 uid="uid://ga4brol6kes6"]
 
 [ext_resource type="Shader" uid="uid://dtq8vkrpvuqfj" path="res://gridmaterial.tres" id="1_78mpy"]
-[ext_resource type="PackedScene" uid="uid://doh0w0if3r85g" path="res://character.tscn" id="2_7bd7c"]
+[ext_resource type="PackedScene" uid="uid://c2maorpadbk3l" path="res://character.tscn" id="2_7bd7c"]
+[ext_resource type="PackedScene" uid="uid://46fcmr3wwhpp" path="res://FREDDY.tscn" id="3_58lt5"]
 [ext_resource type="Script" path="res://animation.gd" id="3_w4bpu"]
 
 [sub_resource type="Environment" id="Environment_g3bud"]
@@ -91,9 +92,6 @@ size = Vector3(2.5, 0.5, 3)
 size = Vector3(3, 0.5, 3)
 
 [node name="World" type="Node3D"]
-
-[node name="character" parent="." instance=ExtResource("2_7bd7c")]
-transform = Transform3D(-1, 2.98023e-08, -8.74228e-08, 2.98023e-08, 1, 0, 8.74228e-08, 0, -1, 0, 1, 0)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_g3bud")
@@ -314,3 +312,9 @@ transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 7.74062,
 alpha_cut = 2
 text = "Finish"
 font_size = 64
+
+[node name="scene" parent="." instance=ExtResource("3_58lt5")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.11305, 3.95944, -6.53414)
+
+[node name="character" parent="." instance=ExtResource("2_7bd7c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.10819, 0)

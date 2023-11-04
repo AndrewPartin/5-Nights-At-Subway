@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cubyqxqo4acco"
-path.s3tc="res://.godot/imported/reticle.png-e609ac156d360c042c299557fa9ba6db.s3tc.ctex"
+path.s3tc="res://.godot/imported/reticle.png-dc7142bd64cff1038bc1ff21884b5e5c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assests/maniq/2d/reticle.png"
-dest_files=["res://.godot/imported/reticle.png-e609ac156d360c042c299557fa9ba6db.s3tc.ctex"]
+source_file="res://assets/maniq/2d/reticle.png"
+dest_files=["res://.godot/imported/reticle.png-dc7142bd64cff1038bc1ff21884b5e5c.s3tc.ctex"]
 
 [params]
 

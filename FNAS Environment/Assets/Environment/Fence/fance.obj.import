@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dh8xobelniefq"
-path="res://.godot/imported/fance.obj-beb0346633164f141d98d9eb0275a300.mesh"
+path="res://.godot/imported/fance.obj-4536ec88552ebd6a39d0a3f933598fe9.mesh"
 
 [deps]
 
-files=["res://.godot/imported/fance.obj-beb0346633164f141d98d9eb0275a300.mesh"]
+files=["res://.godot/imported/fance.obj-4536ec88552ebd6a39d0a3f933598fe9.mesh"]
 
-source_file="res://Assets/Environment/Fence/fance.obj"
-dest_files=["res://.godot/imported/fance.obj-beb0346633164f141d98d9eb0275a300.mesh", "res://.godot/imported/fance.obj-beb0346633164f141d98d9eb0275a300.mesh"]
+source_file="res://FNAS Environment/Assets/Environment/Fence/fance.obj"
+dest_files=["res://.godot/imported/fance.obj-4536ec88552ebd6a39d0a3f933598fe9.mesh", "res://.godot/imported/fance.obj-4536ec88552ebd6a39d0a3f933598fe9.mesh"]
 
 [params]
 

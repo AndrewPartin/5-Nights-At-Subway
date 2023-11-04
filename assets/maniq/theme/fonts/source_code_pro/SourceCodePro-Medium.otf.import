@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://df77n7aqx3m6l"
-path="res://.godot/imported/SourceCodePro-Medium.otf-71ffd0439f67507a78255b3a19c68b4d.fontdata"
+path="res://.godot/imported/SourceCodePro-Medium.otf-489779affbf5f1bb63baab9a63a4c495.fontdata"
 
 [deps]
 
-source_file="res://assests/maniq/theme/fonts/source_code_pro/SourceCodePro-Medium.otf"
-dest_files=["res://.godot/imported/SourceCodePro-Medium.otf-71ffd0439f67507a78255b3a19c68b4d.fontdata"]
+source_file="res://assets/maniq/theme/fonts/source_code_pro/SourceCodePro-Medium.otf"
+dest_files=["res://.godot/imported/SourceCodePro-Medium.otf-489779affbf5f1bb63baab9a63a4c495.fontdata"]
 
 [params]
 
