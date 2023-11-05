@@ -1,20 +1,20 @@
 [gd_scene load_steps=81 format=3 uid="uid://cbeoantucer6y"]
 
 [ext_resource type="ArrayMesh" uid="uid://t61vva50gjrw" path="res://FNAS Environment/Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj" id="1_f6yxl"]
-[ext_resource type="PackedScene" uid="uid://bum80omb0iyr2" path="res://assets/Environment/Parking Lot/scene.gltf" id="2_56kh6"]
-[ext_resource type="Texture2D" uid="uid://crtvoy8fc1k8l" path="res://FNAS Environment/Assets/Environment/Road/Road.jpg" id="3_2wt3a"]
-[ext_resource type="Texture2D" uid="uid://coa6mc2oul6b5" path="res://FNAS Environment/Assets/Environment/Grassland/Grass02.jpg" id="4_a3geg"]
+[ext_resource type="PackedScene" uid="uid://bum80omb0iyr2" path="res://FNAS Environment/Assets/Environment/Parking Lot/scene.gltf" id="2_56kh6"]
+[ext_resource type="Texture2D" uid="uid://crtvoy8fc1k8l" path="res://Assets/Environment/Road/Road.jpg" id="3_2wt3a"]
+[ext_resource type="Texture2D" uid="uid://coa6mc2oul6b5" path="res://Assets/Environment/Grassland/Grass02.jpg" id="4_a3geg"]
 [ext_resource type="PackedScene" uid="uid://bpplip8h0ahl1" path="res://Assets/Environment/Trees/tree_dead.fbx" id="5_54qfp"]
-[ext_resource type="PackedScene" uid="uid://bbo57ystn2rfn" path="res://assets/Environment/Trees/rock_2.fbx" id="7_smtqg"]
-[ext_resource type="Texture2D" uid="uid://cgje5px6654hd" path="res://FNAS Environment/Assets/Environment/Fence/burnished-metal.jpg" id="8_hssxa"]
-[ext_resource type="ArrayMesh" uid="uid://dh8xobelniefq" path="res://FNAS Environment/Assets/Environment/Fence/fance.obj" id="9_eud0l"]
+[ext_resource type="PackedScene" uid="uid://bbo57ystn2rfn" path="res://Assets/Environment/Trees/rock_2.fbx" id="7_smtqg"]
+[ext_resource type="Texture2D" uid="uid://cgje5px6654hd" path="res://Assets/Environment/Fence/burnished-metal.jpg" id="8_hssxa"]
+[ext_resource type="ArrayMesh" uid="uid://dh8xobelniefq" path="res://Assets/Environment/Fence/fance.obj" id="9_eud0l"]
 [ext_resource type="PackedScene" uid="uid://bqadtwghqednt" path="res://fredric.tscn" id="9_tonjj"]
-[ext_resource type="PackedScene" uid="uid://c2maorpadbk3l" path="res://character.tscn" id="10_20xye"]
 [ext_resource type="PackedScene" uid="uid://bqdaywuvs05fv" path="res://assets/Soobway Stoof/poly.glb" id="11_x7q7o"]
 [ext_resource type="PackedScene" uid="uid://x74o4rdldy43" path="res://assets/Soobway Stoof/raw (1).glb" id="12_swery"]
 [ext_resource type="PackedScene" uid="uid://7ly76477dp5g" path="res://assets/Soobway Stoof/raw (2).glb" id="13_ih0a5"]
 [ext_resource type="PackedScene" uid="uid://bsvt7m7lgl3o7" path="res://assets/Soobway Stoof/raw (4).glb" id="14_p1s66"]
 [ext_resource type="PackedScene" uid="uid://b567pn4wgntv3" path="res://assets/Soobway Stoof/raw (3).glb" id="15_kwsei"]
+[ext_resource type="PackedScene" uid="uid://dde7i50de6isv" path="res://character_2.tscn" id="15_l0aud"]
 
 [sub_resource type="Environment" id="Environment_k6ocj"]
 volumetric_fog_enabled = true
@@ -428,11 +428,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.8338, 0, -52.8545)
 [node name="fredric" parent="." instance=ExtResource("9_tonjj")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 70.6259)
 
-[node name="character" parent="." instance=ExtResource("10_20xye")]
-transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 22.6663, 7.85887, -0.171154)
-
 [node name="Car" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.4889, 1.88616, 0.192943)
+collision_layer = 3
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Car"]
 transform = Transform3D(-0.543029, -0.0497417, 0.838239, -0.0264008, 0.998762, 0.0421643, -0.839298, 0.000766221, -0.54367, 0.326777, -1.03801, -0.0991206)
@@ -447,6 +445,7 @@ mesh = ExtResource("1_f6yxl")
 skeleton = NodePath("../..")
 
 [node name="Ground" type="StaticBody3D" parent="."]
+collision_layer = 3
 
 [node name="Road" type="MeshInstance3D" parent="Ground"]
 transform = Transform3D(-1000, -5.50763e-08, 7.94935e-07, -8.74228e-05, 0.63, 0, 8.74228e-05, 4.81493e-15, 9.093, -11.312, -0.511821, 16.8756)
@@ -466,6 +465,7 @@ shape = SubResource("BoxShape3D_be8ca")
 
 [node name="Fence" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 95.0266)
+collision_layer = 3
 
 [node name="Main_Fence" type="CollisionShape3D" parent="Fence"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.75945, 0)
@@ -742,6 +742,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 0, 5.5)
 transform = Transform3D(-1.31134e-07, 0, -3, 0, 3, 0, 3, 0, -1.31134e-07, 11.5087, 3.58741, -25.2031)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="StaticProps/Building"]
+collision_layer = 3
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticProps/Building/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.19786, 0.116223, -0.0252705)
@@ -774,3 +775,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.73202, 0.362355, -25.2031)
 
 [node name="cookies" parent="StaticProps" instance=ExtResource("15_kwsei")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.73202, 0.362355, -25.2031)
+
+[node name="character_2" parent="." instance=ExtResource("15_l0aud")]
+transform = Transform3D(2.813, 0, 0, 0, 2.813, 0, 0, 0, 2.813, -1.41843, -0.0393042, 1.96866)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 76.7622, 0)
+light_energy = 2.625

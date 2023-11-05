@@ -1,6 +1,6 @@
-res://world.tscn
-res://gridmaterial.tres
-res://character.tscn
-res://FREDDY.tscn
-res://character.gd
 res://EnvBase.tscn
+res://character.tscn
+res://character_2.tscn
+res://cheese_2.tscn
+res://character_new.gd
+res://fredric.tscn

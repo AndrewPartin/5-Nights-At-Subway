@@ -8,6 +8,7 @@ radius = 1.94789
 height = 10.3779
 
 [node name="fredric" groups=["enemy"] instance=ExtResource("1_pccm0")]
+collision_layer = 3
 script = ExtResource("2_1pdog")
 
 [node name="Sketchfab_model" parent="." index="0"]

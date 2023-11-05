@@ -1,5 +1,8 @@
-CollisionShape3D
+MeshInstance3D
+AnimatableBody3D
 StaticBody3D
+DirectionalLight3D
+CollisionShape3D
 OmniLight3D
 WorldEnvironment
 Area3D
