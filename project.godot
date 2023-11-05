@@ -58,6 +58,10 @@ throw_cheese={
 3d_physics/layer_2="player"
 3d_physics/layer_3="props"
 
+[physics]
+
+3d/default_gravity=19.6
+
 [rendering]
 
 anti_aliasing/quality/msaa_2d=3
