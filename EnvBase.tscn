@@ -1,4 +1,4 @@
-[gd_scene load_steps=95 format=3 uid="uid://cc60m1xdo3igx"]
+[gd_scene load_steps=107 format=3 uid="uid://cc60m1xdo3igx"]
 
 [ext_resource type="ArrayMesh" uid="uid://t61vva50gjrw" path="res://FNAS Environment/Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj" id="1_f6yxl"]
 [ext_resource type="PackedScene" uid="uid://bum80omb0iyr2" path="res://FNAS Environment/Assets/Environment/Parking Lot/scene.gltf" id="2_56kh6"]
@@ -17,7 +17,11 @@
 [ext_resource type="Texture2D" uid="uid://dtwtnw6mjjr6x" path="res://assets/Materials/gray_wall.jpg" id="16_0mksl"]
 [ext_resource type="Texture2D" uid="uid://dff4tg4tecymi" path="res://assets/Materials/green_wall.jpg" id="17_8hl26"]
 [ext_resource type="PackedScene" uid="uid://dde7i50de6isv" path="res://character_2.tscn" id="18_avpqs"]
+[ext_resource type="Texture2D" uid="uid://cyhytyay53wv7" path="res://assets/Soobway Stoof/Counter/mat/Овощи-и-фрукты.jpeg" id="18_b4mvo"]
 [ext_resource type="PackedScene" uid="uid://b82e24m4n8h47" path="res://assets/Soobway Stoof/Counter/sb1.FBX" id="18_po7vi"]
+[ext_resource type="Texture2D" uid="uid://cdr5hgeestxns" path="res://assets/Soobway Stoof/Counter/mat/bunch-of-greens-and-vegetables.jpg" id="19_lqnsx"]
+[ext_resource type="Texture2D" uid="uid://cd8ksibwlak4n" path="res://assets/Soobway Stoof/Counter/mat/12_1_17_d.jpg" id="20_0mhht"]
+[ext_resource type="Texture2D" uid="uid://baqs8ps5a4sqt" path="res://assets/Soobway Stoof/Counter/mat/12_1_17_r.jpg" id="21_27j70"]
 
 [sub_resource type="Environment" id="Environment_k6ocj"]
 volumetric_fog_enabled = true
@@ -305,6 +309,35 @@ size = Vector3(0.575566, 0.680983, 1.63116)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8ushy"]
 size = Vector3(0.368789, 0.49295, 2.63975)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rfa2n"]
+albedo_texture = ExtResource("18_b4mvo")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_cvnpu"]
+material = SubResource("StandardMaterial3D_rfa2n")
+size = Vector2(1.7, 0.65)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wc2kg"]
+albedo_texture = ExtResource("19_lqnsx")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_kpgvt"]
+material = SubResource("StandardMaterial3D_wc2kg")
+size = Vector2(1.7, 0.65)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ye1r"]
+albedo_texture = ExtResource("20_0mhht")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2mo6c"]
+material = SubResource("StandardMaterial3D_0ye1r")
+size = Vector2(1.8, 0.8)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sedjg"]
+albedo_texture = ExtResource("21_27j70")
+metallic = 1.0
+metallic_specular = 0.45
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ggge1"]
+material = SubResource("StandardMaterial3D_sedjg")
 
 [node name="Node3D" type="Node3D"]
 
@@ -877,7 +910,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6758, 0.153417, -2.49004)
 shape = SubResource("BoxShape3D_wcot8")
 
 [node name="CollisionShape3D5" type="CollisionShape3D" parent="polyClean/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22892, 0.154351, -2.18172)
+transform = Transform3D(1, 0, -3.55271e-15, 0, 1, 0, 3.55271e-15, 0, 1, 1.22892, 0.154351, -2.18172)
 shape = SubResource("BoxShape3D_a7wr8")
 
 [node name="LeftWall" type="CollisionShape3D" parent="polyClean/StaticBody3D"]
@@ -933,5 +966,21 @@ shape = SubResource("BoxShape3D_8ushy")
 transform = Transform3D(-0.00290884, 0.140867, -0.302091, 0, 0.302103, 0.140873, 0.333321, 0.00122933, -0.00263631, -8.56896, 2.44454, 0.00497723)
 light_energy = 1.422
 sky_mode = 1
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91068e-15, -6.3609, 0.526103, 1.27074)
+mesh = SubResource("PlaneMesh_cvnpu")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91068e-15, -6.3532, 0.532261, -2.34042)
+mesh = SubResource("PlaneMesh_kpgvt")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91068e-15, -6.35352, 0.54149, -0.524538)
+mesh = SubResource("PlaneMesh_2mo6c")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(1, 0, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, 0, 0.730189, 0)
+mesh = SubResource("PlaneMesh_ggge1")
 
 [node name="character_2" parent="." instance=ExtResource("18_avpqs")]

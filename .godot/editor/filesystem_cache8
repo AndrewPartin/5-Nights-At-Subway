@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699150105
+::res://::1699151009
 animation.gd::GDScript::-1::1699130910::0::1::::<>AnimationPlayer<>::
-character.tscn::PackedScene::5587179335567841385::1699150072::0::1::::<><>::
-character_2.tscn::PackedScene::7380044937592900081::1699149997::0::1::::<><>::res://character_new.gd
-character_new.gd::GDScript::-1::1699149997::0::1::::<>CharacterBody3D<>::
+character.tscn::PackedScene::5587179335567841385::1699150292::0::1::::<><>::
+character_2.tscn::PackedScene::7380044937592900081::1699150561::0::1::::<><>::res://character_new.gd
+character_new.gd::GDScript::-1::1699150559::0::1::::<>CharacterBody3D<>::
 cheese.tscn::PackedScene::3708050813665016867::1699149997::0::1::::<><>::uid://ddqjx3bd17pc5::::res://assets/uploads_files_3220918_Cheese.dae
 cheese_2.gd::GDScript::-1::1699149997::0::1::::<>RigidBody3D<>::
 cheese_2.tscn::PackedScene::5185597761491711881::1699149997::0::1::::<><>::res://cheese_2.gd
-EnvBase.tscn::PackedScene::4978755520677870563::1699149997::0::1::::<><>::uid://t61vva50gjrw::::res://FNAS Environment/Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj<>uid://bum80omb0iyr2::::res://FNAS Environment/Assets/Environment/Parking Lot/scene.gltf<>uid://crtvoy8fc1k8l::::res://FNAS Environment/Assets/Environment/Road/Road.jpg<>uid://coa6mc2oul6b5::::res://FNAS Environment/Assets/Environment/Grassland/Grass02.jpg<>uid://bpplip8h0ahl1::::res://Assets/Environment/Trees/tree_dead.fbx<>uid://bbo57ystn2rfn::::res://Assets/Environment/Trees/rock_2.fbx<>uid://cgje5px6654hd::::res://FNAS Environment/Assets/Environment/Fence/burnished-metal.jpg<>uid://dh8xobelniefq::::res://FNAS Environment/Assets/Environment/Fence/fance.obj
+EnvBase.tscn::PackedScene::4978755520677870563::1699151517::0::1::::<><>::uid://t61vva50gjrw::::res://FNAS Environment/Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj<>uid://bum80omb0iyr2::::res://FNAS Environment/Assets/Environment/Parking Lot/scene.gltf<>uid://coa6mc2oul6b5::::res://FNAS Environment/Assets/Environment/Grassland/Grass02.jpg<>uid://bpplip8h0ahl1::::res://assets/Environment/Trees/tree_dead.fbx<>uid://crtvoy8fc1k8l::::res://FNAS Environment/Assets/Environment/Road/Road.jpg<>uid://bbo57ystn2rfn::::res://assets/Environment/Trees/rock_2.fbx<>uid://cgje5px6654hd::::res://FNAS Environment/Assets/Environment/Fence/burnished-metal.jpg<>uid://dh8xobelniefq::::res://FNAS Environment/Assets/Environment/Fence/fance.obj<>uid://bqadtwghqednt::::res://fredric.tscn<>uid://x74o4rdldy43::::res://assets/Soobway Stoof/raw (1).glb<>uid://7ly76477dp5g::::res://assets/Soobway Stoof/raw (2).glb<>uid://bsvt7m7lgl3o7::::res://assets/Soobway Stoof/raw (4).glb<>uid://hw2pplsdvufs::::res://assets/Soobway Stoof/polyClean.glb<>uid://b567pn4wgntv3::::res://assets/Soobway Stoof/raw (3).glb<>uid://dtwtnw6mjjr6x::::res://assets/Materials/gray_wall.jpg<>uid://dff4tg4tecymi::::res://assets/Materials/green_wall.jpg<>uid://dde7i50de6isv::::res://character_2.tscn<>uid://cyhytyay53wv7::::res://assets/Soobway Stoof/Counter/mat/Овощи-и-фрукты.jpeg<>uid://b82e24m4n8h47::::res://assets/Soobway Stoof/Counter/sb1.FBX<>uid://cdr5hgeestxns::::res://assets/Soobway Stoof/Counter/mat/bunch-of-greens-and-vegetables.jpg<>uid://cd8ksibwlak4n::::res://assets/Soobway Stoof/Counter/mat/12_1_17_d.jpg
 fredric.gd::GDScript::-1::1699130910::0::1::::<>Node3D<>::
 fredric.tscn::PackedScene::3509659428086231769::1699149997::0::1::::<><>::uid://du0t5xvk67y2j::::res://assets/FREDDY FNAF/scene.gltf<>res://fredric.gd
 gridmaterial.tres::VisualShader::8527921838905746691::1699133385::0::1::::<><>::
@@ -175,17 +175,17 @@ raw_2.png::CompressedTexture2D::2849766664186617600::1699141033::1699141241::1::
 ::res://assets/Soobway Stoof/Counter/::1699147090
 1.jpg::CompressedTexture2D::456874528874853426::1538253087::1699147037::1::::<><>::
 sb1.FBX::PackedScene::4758683350565394702::1443629931::1699147090::1::::<><>::
-::res://assets/Soobway Stoof/Counter/mat/::1699147047
+::res://assets/Soobway Stoof/Counter/mat/::1699151177
 008.jpg::CompressedTexture2D::5342803182118783839::1422311021::1699147037::1::::<><>::
 12_1_17_b.jpg::CompressedTexture2D::694990854407676393::1381014719::1699147038::1::::<><>::
-12_1_17_d.jpg::CompressedTexture2D::5052172101148121791::1381014719::1699147041::1::::<><>::
-12_1_17_r.jpg::CompressedTexture2D::2420603381847670947::1381014581::1699147039::1::::<><>::
+12_1_17_d.jpg::CompressedTexture2D::5052172101148121791::1381014719::1699151427::1::::<><>::
+12_1_17_r.jpg::CompressedTexture2D::2420603381847670947::1381014581::1699151614::1::::<><>::
 1023358.jpg::CompressedTexture2D::5005165764964386613::1422309128::1699147037::1::::<><>::
-bunch-of-greens-and-vegetables.jpg::CompressedTexture2D::5020336651985531744::1422460120::1699147047::1::::<><>::
+bunch-of-greens-and-vegetables.jpg::CompressedTexture2D::5020336651985531744::1422460120::1699151294::1::::<><>::
 hqdefault (1).jpg::CompressedTexture2D::7269984615394050170::1422309198::1699147036::1::::<><>::
 menusubway15-L.jpg::CompressedTexture2D::5038595363425503062::1422380214::1699147038::1::::<><>::
 Untitled-2.jpg::CompressedTexture2D::2616686050332489997::1443625820::1699147037::1::::<><>::
-Овощи-и-фрукты.jpeg::CompressedTexture2D::6473316658580056322::1422460065::1699147038::1::::<><>::
+Овощи-и-фрукты.jpeg::CompressedTexture2D::6473316658580056322::1422460065::1699151177::1::::<><>::
 скачанные файлы.jpg::CompressedTexture2D::6728054195997763679::1443563281::1699147037::1::::<><>::
 ::res://assets/Soobway Stoof/Counter 2/::1699147436
 ::res://assets/Soobway Stoof/Counter 2/mat/::1699147607
