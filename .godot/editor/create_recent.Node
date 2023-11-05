@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 MeshInstance3D
 AnimatableBody3D
+=======
+CSGMesh3D
+MeshInstance3D
+CollisionShape3D
+>>>>>>> 0d5c435a3d60be620dfe5860028c30de90f3f2ad
 StaticBody3D
 DirectionalLight3D
 CollisionShape3D
