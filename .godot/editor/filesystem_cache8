@@ -1,18 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699132367
+::res://::1699134676
 animation.gd::GDScript::-1::1699130910::0::1::::<>AnimationPlayer<>::
 character.gd::GDScript::-1::1699132038::0::1::::<>CharacterBody3D<>::
-character.tscn::PackedScene::6692738595849541859::1699132182::0::1::::<><>::
+character.tscn::PackedScene::6692738595849541859::1699134676::0::1::::<><>::
 character_new.gd::GDScript::-1::1699130910::0::1::::<>CharacterBody3D<>::
 cheese.gd::GDScript::-1::1699130910::0::1::::<>RigidBody3D<>::
-EnvBase.tscn::PackedScene::-1::1699132267::0::1::::<><>::
+EnvBase.tscn::PackedScene::4852138473005598970::1699134675::0::1::::<><>::uid://t61vva50gjrw::::res://FNAS Environment/Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj<>uid://bum80omb0iyr2::::res://assets/Environment/Parking Lot/scene.gltf<>uid://crtvoy8fc1k8l::::res://FNAS Environment/Assets/Environment/Road/Road.jpg<>uid://coa6mc2oul6b5::::res://FNAS Environment/Assets/Environment/Grassland/Grass02.jpg<>uid://bpplip8h0ahl1::::res://Assets/Environment/Trees/tree_dead.fbx<>uid://bbo57ystn2rfn::::res://assets/Environment/Trees/rock_2.fbx<>uid://cgje5px6654hd::::res://FNAS Environment/Assets/Environment/Fence/burnished-metal.jpg<>uid://dh8xobelniefq::::res://FNAS Environment/Assets/Environment/Fence/fance.obj<>uid://bqadtwghqednt::::res://fredric.tscn<>uid://c2maorpadbk3l::::res://character.tscn
 fredric.gd::GDScript::-1::1699130910::0::1::::<>Node3D<>::
 fredric.tscn::PackedScene::3509659428086231769::1699130910::0::1::::<><>::uid://du0t5xvk67y2j::::res://assets/FREDDY FNAF/scene.gltf<>res://fredric.gd
-gridmaterial.tres::VisualShader::8527921838905746691::1699131200::0::1::::<><>::
+gridmaterial.tres::VisualShader::8527921838905746691::1699133385::0::1::::<><>::
 icon.svg::CompressedTexture2D::3886206400320860820::1699130910::1699131184::1::::<><>::
 FREDDY.tscn::PackedScene::2099779990274775673::1699132183::0::1::::<><>::uid://du0t5xvk67y2j::::res://assets/FREDDY FNAF/scene.gltf
-world.tscn::PackedScene::422896555478155315::1699132336::0::1::::<><>::uid://dtq8vkrpvuqfj::::res://gridmaterial.tres<>uid://c2maorpadbk3l::::res://character.tscn<>uid://46fcmr3wwhpp::::res://FREDDY.tscn<>res://animation.gd
-::res://assets/::1699132267
+world.tscn::PackedScene::422896555478155315::1699133180::0::1::::<><>::uid://dtq8vkrpvuqfj::::res://gridmaterial.tres<>uid://c2maorpadbk3l::::res://character.tscn<>uid://46fcmr3wwhpp::::res://FREDDY.tscn<>res://animation.gd
+::res://assets/::1699141210
 cheese.obj::PackedScene::8407293237651515472::1699130910::1699131187::1::::<><>::
 ::res://assets/Action Adventure Pack/::1699131522
 Ch08_nonPBR.fbx::PackedScene::3471373072914581369::1699131400::1699131519::1::::<><>::uid://csoksw8ma4jx0::::res://assets/Action Adventure Pack/Ch08_nonPBR-39c78b4a3c2610d928caf927a2f87329_Ch08_1001_Diffuse.png<>uid://bbg1uaqj44d02::::res://assets/Action Adventure Pack/Ch08_nonPBR-39c78b4a3c2610d928caf927a2f87329_ao_met_rough_Ch08_1001_Glossiness.png<>uid://coo84bfdvdo8f::::res://assets/Action Adventure Pack/Ch08_nonPBR-39c78b4a3c2610d928caf927a2f87329_Ch08_1001_Normal.png<>uid://bvjdt3eyggcem::::res://assets/Action Adventure Pack/Ch08_nonPBR-39c78b4a3c2610d928caf927a2f87329_Ch08_1002_Diffuse.png<>uid://xke3je6qfc6l::::res://assets/Action Adventure Pack/Ch08_nonPBR-39c78b4a3c2610d928caf927a2f87329_ao_met_rough_Ch08_1002_Glossiness.png<>uid://br6eyvvgyvit8::::res://assets/Action Adventure Pack/Ch08_nonPBR-39c78b4a3c2610d928caf927a2f87329_Ch08_1002_Normal.png<>uid://dk1hjm4lgl2yu::::res://assets/Action Adventure Pack/Ch08_nonPBR-39c78b4a3c2610d928caf927a2f87329_Ch08_1003_Diffuse.png
@@ -71,14 +71,14 @@ Grass02_Normal.jpg::CompressedTexture2D::2353284425013090039::1699132267::169913
 scene.gltf::PackedScene::3817019149055123373::1699132267::1699132281::1::::<><>::
 ::res://assets/Environment/Road/::1699132277
 Road.jpg::CompressedTexture2D::6006576256292486245::1699132267::1699132277::1::::<><>::
-::res://assets/Environment/Trees/::1699132623
+::res://assets/Environment/Trees/::1699132628
 rock_2-3f16cf72fbe5a7c1d82541c0031b4318_rock.png::CompressedTexture2D::8639779826226288601::1699132627::1699132628::1::::<><>::
 rock_1-9c051ca22a1c37c27a1e743c5a9e7868_rock.png::CompressedTexture2D::333537560739988442::1699132627::1699132628::1::::<><>::
 rock.png::CompressedTexture2D::2643202189127059081::1699132623::1699132626::1::::<><>::
-rock_1-8b47a1f470e96474659ece47b62598f1_rock.png::PackedScene::4621091243531258867::1699132623::1699132627::1::::<><>::uid://e0tkyavpecxu::::res://assets/Environment/Trees/rock_1-9c051ca22a1c37c27a1e743c5a9e7868_rock.png
-rock_1.fbx::PackedScene::4621091243531258867::0::0::1::::<><>::
-rock_2-5c247a5a7a7a5ed49d8a01b754549636_rock.png::PackedScene::2487390760324530307::1699132623::1699132627::1::::<><>::uid://dvdf58vv4unrt::::res://assets/Environment/Trees/rock_2-3f16cf72fbe5a7c1d82541c0031b4318_rock.png
-rock_2.fbx::PackedScene::2487390760324530307::0::0::1::::<><>::
+rock_1-8b47a1f470e96474659ece47b62598f1_rock.png::PackedScene::4621091243531258867::1699132623::1699132626::1::::<><>::uid://e0tkyavpecxu::::res://assets/Environment/Trees/rock_1-9c051ca22a1c37c27a1e743c5a9e7868_rock.png
+rock_1.fbx::PackedScene::4621091243531258867::1699132623::1699132627::1::::<><>::
+rock_2-5c247a5a7a7a5ed49d8a01b754549636_rock.png::PackedScene::2487390760324530307::1699132623::1699132626::1::::<><>::uid://dvdf58vv4unrt::::res://assets/Environment/Trees/rock_2-3f16cf72fbe5a7c1d82541c0031b4318_rock.png
+rock_2.fbx::PackedScene::2487390760324530307::1699132623::1699132627::1::::<><>::
 tree_dead-79b98224dc539ddcc4c4f7517edfd485_tree_bark_dark.png::CompressedTexture2D::7790807238499931181::1699132623::1699132626::1::::<><>::
 tree_dead.fbx::PackedScene::3470902017026416476::1699132623::1699132627::1::::<><>::
 ::res://assets/FREDDY FNAF/::1699131186
@@ -138,6 +138,30 @@ line.tres::StyleBoxLine::-1::1699120548::0::1::::<><>::
 ::res://assets/maniq/theme/slider/::1699130972
 grabber_area.stylebox::StyleBoxFlat::-1::1699120548::0::1::::<><>::
 slider.stylebox::StyleBoxFlat::-1::1699120548::0::1::::<><>::
+::res://assets/Soobway Stoof/::1699141738
+poly.glb::PackedScene::3515679361606522943::1699141124::1699141743::1::::<><>::uid://cfybyfmf1wg1b::::res://assets/Soobway Stoof/poly_0.png
+raw (1).glb::PackedScene::1682190835299535550::1699141140::1699141321::1::::<><>::uid://bexbggvpi1sks::::res://assets/Soobway Stoof/raw (1)_0.png
+raw (2).glb::PackedScene::2270267179463060758::1699141144::1699141379::1::::<><>::uid://dkyfdb4q5dm4x::::res://assets/Soobway Stoof/raw (2)_0.png<>uid://7ajrlam3ekj5::::res://assets/Soobway Stoof/raw (2)_3.png<>uid://dum2y5n4wtysa::::res://assets/Soobway Stoof/raw (2)_1.png<>uid://dll036dtvf407::::res://assets/Soobway Stoof/raw (2)_2.png
+raw (3).glb::PackedScene::4558052162498036858::1699141152::1699141445::1::::<><>::uid://by2q1elknvhwx::::res://assets/Soobway Stoof/raw (3)_0.png<>uid://37ogkbi7ns43::::res://assets/Soobway Stoof/raw (3)_1.png<>uid://b7a2ej5vgft36::::res://assets/Soobway Stoof/raw (3)_2.png
+raw (4).glb::PackedScene::3694383250502674692::1699141157::1699141507::1::::<><>::uid://blby3nrlxqs7c::::res://assets/Soobway Stoof/raw (4)_0.png<>uid://b8gkpmrhyj3u8::::res://assets/Soobway Stoof/raw (4)_1.png<>uid://clusnttlddngy::::res://assets/Soobway Stoof/raw (4)_2.png
+raw.glb::PackedScene::7589059012922080525::1699140959::1699141509::1::::<><>::uid://sp0b1yyoc81x::::res://assets/Soobway Stoof/raw_0.png<>uid://lfktpto3lalq::::res://assets/Soobway Stoof/raw_1.png<>uid://bgupigewq3jnc::::res://assets/Soobway Stoof/raw_2.png
+raw_0.png::CompressedTexture2D::1295885966200232319::1699140991::1699141241::1::::<><>::
+raw_1.png::CompressedTexture2D::783041086675994910::1699141014::1699141241::1::::<><>::
+raw_2.png::CompressedTexture2D::2849766664186617600::1699141033::1699141241::1::::<><>::
+raw (1)_0.png::CompressedTexture2D::2714728526619059998::1699141272::1699141516::1::::<><>::
+raw (2)_0.png::CompressedTexture2D::7911004593992476505::1699141326::1699141513::1::::<><>::
+raw (2)_1.png::CompressedTexture2D::8589495271877843740::1699141342::1699141512::1::::<><>::
+raw (2)_2.png::CompressedTexture2D::7955617047190650366::1699141358::1699141514::1::::<><>::
+raw (2)_3.png::CompressedTexture2D::2246620386187980888::1699141370::1699141512::1::::<><>::
+raw (3)_0.png::CompressedTexture2D::4127709260450092951::1699141389::1699141513::1::::<><>::
+raw (3)_1.png::CompressedTexture2D::2032208989842064230::1699141413::1699141513::1::::<><>::
+raw (3)_2.png::CompressedTexture2D::4634110702107116619::1699141434::1699141514::1::::<><>::
+raw (4)_0.png::CompressedTexture2D::3162070261117652378::1699141453::1699141514::1::::<><>::
+raw (4)_1.png::CompressedTexture2D::4715673404001150113::1699141478::1699141514::1::::<><>::
+raw (4)_2.png::CompressedTexture2D::5587323351475182336::1699141497::1699141515::1::::<><>::
+poly_0.png::CompressedTexture2D::5173434509137480701::1699141742::1699141743::1::::<><>::
+::res://assets/Soobway Stoof/Renderings/::1699141241
+Subway20110923-31394-6kwv24.jpg::CompressedTexture2D::6183522738502294025::1699135420::1699141241::1::::<><>::
 ::res://FNAS Environment/::1699132267
 ::res://FNAS Environment/Assets/::1699132267
 ::res://FNAS Environment/Assets/Environment/::1699132267
