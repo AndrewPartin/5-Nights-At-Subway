@@ -1,4 +1,4 @@
-[gd_scene load_steps=107 format=3 uid="uid://cc60m1xdo3igx"]
+[gd_scene load_steps=115 format=3 uid="uid://cc60m1xdo3igx"]
 
 [ext_resource type="ArrayMesh" uid="uid://t61vva50gjrw" path="res://FNAS Environment/Assets/Environment/Car/Chevrolet_Camaro_SS_Low.obj" id="1_f6yxl"]
 [ext_resource type="PackedScene" uid="uid://bum80omb0iyr2" path="res://FNAS Environment/Assets/Environment/Parking Lot/scene.gltf" id="2_56kh6"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://bqadtwghqednt" path="res://fredric.tscn" id="9_tonjj"]
 [ext_resource type="PackedScene" uid="uid://x74o4rdldy43" path="res://assets/Soobway Stoof/raw (1).glb" id="12_swery"]
 [ext_resource type="PackedScene" uid="uid://7ly76477dp5g" path="res://assets/Soobway Stoof/raw (2).glb" id="13_ih0a5"]
+[ext_resource type="PackedScene" uid="uid://ykp6k1nkr127" path="res://assets/Soobway Stoof/outdoor_table_chair_set_01_1k.fbx" id="14_85ko3"]
 [ext_resource type="PackedScene" uid="uid://bsvt7m7lgl3o7" path="res://assets/Soobway Stoof/raw (4).glb" id="14_p1s66"]
 [ext_resource type="PackedScene" uid="uid://hw2pplsdvufs" path="res://assets/Soobway Stoof/polyClean.glb" id="15_hjw4d"]
 [ext_resource type="PackedScene" uid="uid://b567pn4wgntv3" path="res://assets/Soobway Stoof/raw (3).glb" id="15_kwsei"]
@@ -21,7 +22,11 @@
 [ext_resource type="PackedScene" uid="uid://b82e24m4n8h47" path="res://assets/Soobway Stoof/Counter/sb1.FBX" id="18_po7vi"]
 [ext_resource type="Texture2D" uid="uid://cdr5hgeestxns" path="res://assets/Soobway Stoof/Counter/mat/bunch-of-greens-and-vegetables.jpg" id="19_lqnsx"]
 [ext_resource type="Texture2D" uid="uid://cd8ksibwlak4n" path="res://assets/Soobway Stoof/Counter/mat/12_1_17_d.jpg" id="20_0mhht"]
-[ext_resource type="Texture2D" uid="uid://baqs8ps5a4sqt" path="res://assets/Soobway Stoof/Counter/mat/12_1_17_r.jpg" id="21_27j70"]
+[ext_resource type="Texture2D" uid="uid://mkl2nik233je" path="res://assets/Textures/metal_0071_color_1k.jpg" id="22_u7k0a"]
+[ext_resource type="Texture2D" uid="uid://dcvfahqoik3lo" path="res://assets/Textures/metal_0071_metallic_1k.jpg" id="23_n1n24"]
+[ext_resource type="Texture2D" uid="uid://cn6flsp7glqq7" path="res://assets/Textures/metal_0071_normal_directx_1k.png" id="24_ocneo"]
+[ext_resource type="Texture2D" uid="uid://b3fggpy7sxm17" path="res://assets/Textures/metal_0071_roughness_1k.jpg" id="25_po7oq"]
+[ext_resource type="Texture2D" uid="uid://dbtvt4vruc531" path="res://assets/Soobway Stoof/Counter/mat/hqdefault (1).jpg" id="26_tn30s"]
 
 [sub_resource type="Environment" id="Environment_k6ocj"]
 volumetric_fog_enabled = true
@@ -263,6 +268,9 @@ size = Vector3(5.08069, 3.22963, 8.23387)
 [sub_resource type="BoxShape3D" id="BoxShape3D_2aulc"]
 size = Vector3(0.352487, 0.614826, 0.294924)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_0ye10"]
+size = Vector3(0.692288, 0.725721, 1.44896)
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_ilo1w"]
 size = Vector3(0.121426, 2.93799, 11.8593)
 
@@ -332,14 +340,32 @@ material = SubResource("StandardMaterial3D_0ye1r")
 size = Vector2(1.8, 0.8)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sedjg"]
-albedo_texture = ExtResource("21_27j70")
-metallic = 1.0
-metallic_specular = 0.45
+albedo_texture = ExtResource("22_u7k0a")
+metallic = 0.35
+metallic_specular = 0.2
+metallic_texture = ExtResource("23_n1n24")
+roughness_texture = ExtResource("25_po7oq")
+normal_enabled = true
+normal_scale = 3.46
+normal_texture = ExtResource("24_ocneo")
+ao_enabled = true
+uv1_scale = Vector3(3, 3, 3)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_ggge1"]
 material = SubResource("StandardMaterial3D_sedjg")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j1hqr"]
+albedo_texture = ExtResource("26_tn30s")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_r2xf1"]
+material = SubResource("StandardMaterial3D_j1hqr")
+size = Vector2(0.67, 0.74)
+
 [node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
 
 [node name="scene" parent="." instance=ExtResource("2_56kh6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.2736, 0, 0.50176)
@@ -825,6 +851,15 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -1.379
 [node name="cookies" parent="StaticProps" instance=ExtResource("15_kwsei")]
 transform = Transform3D(2.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 8.66628, 3.32946, -28.5543)
 
+[node name="outdoor_table_chair_set_01_1k" parent="StaticProps" instance=ExtResource("14_85ko3")]
+transform = Transform3D(-3, 0, -2.62268e-07, 0, 3, 0, 2.62268e-07, 0, -3, -4.75693, 0.266163, -23.2331)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="StaticProps/outdoor_table_chair_set_01_1k"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticProps/outdoor_table_chair_set_01_1k/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0844248, 0.3635, -0.00268173)
+shape = SubResource("BoxShape3D_0ye10")
+
 [node name="polyClean" parent="." instance=ExtResource("15_hjw4d")]
 transform = Transform3D(-1.31134e-07, 0, -3, 0, 3, 0, 3, 0, -1.31134e-07, 15.0297, 3.58741, -19.7047)
 
@@ -962,11 +997,6 @@ shape = SubResource("BoxShape3D_d18va")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.56203, 1.23036, 0.828034)
 shape = SubResource("BoxShape3D_8ushy")
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="sb1"]
-transform = Transform3D(-0.00290884, 0.140867, -0.302091, 0, 0.302103, 0.140873, 0.333321, 0.00122933, -0.00263631, -8.56896, 2.44454, 0.00497723)
-light_energy = 1.422
-sky_mode = 1
-
 [node name="MeshInstance3D" type="MeshInstance3D" parent="sb1"]
 transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91068e-15, -6.3609, 0.526103, 1.27074)
 mesh = SubResource("PlaneMesh_cvnpu")
@@ -980,7 +1010,31 @@ transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, 
 mesh = SubResource("PlaneMesh_2mo6c")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="sb1"]
-transform = Transform3D(1, 0, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, 0, 0.730189, 0)
+transform = Transform3D(-1.09278e-08, 0.2, -1.42109e-14, -0.25, -8.74228e-09, -1.78671e-22, -3.17637e-22, 0, 1.35, -6.36867, 1.22561, 0.855326)
 mesh = SubResource("PlaneMesh_ggge1")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(4.77671e-16, -3.27835e-09, 0.15, -0.25, -3.27835e-09, -1.09849e-22, 1.09278e-08, -0.075, -6.55671e-09, -6.51521, 1.22561, -0.508019)
+mesh = SubResource("PlaneMesh_ggge1")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(-0.15, -4.91753e-09, 0.129904, -0.259808, -2.83914e-09, -0.075, 1.96701e-08, -0.075, -5.67828e-09, -6.68757, 1.13741, -0.503073)
+mesh = SubResource("PlaneMesh_ggge1")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(0.34202, 0.939693, 8.74228e-08, 0.939693, -0.34202, 0, 2.99003e-08, 8.21506e-08, -1, -8.5703, 2.48069, 0.245641)
+mesh = SubResource("PlaneMesh_r2xf1")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(0.34202, 0.939693, 8.74228e-08, 0.939693, -0.34202, 0, 2.99003e-08, 8.21506e-08, -1, -8.5703, 2.48069, -0.528017)
+mesh = SubResource("PlaneMesh_r2xf1")
+
+[node name="MeshInstance3D9" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(0.34202, 0.939693, 8.74228e-08, 0.939693, -0.34202, 0, 2.99003e-08, 8.21506e-08, -1, -8.5703, 2.48069, 1.01629)
+mesh = SubResource("PlaneMesh_r2xf1")
+
+[node name="MeshInstance3D10" type="MeshInstance3D" parent="sb1"]
+transform = Transform3D(0.34202, 0.939693, 1.50996e-07, 0.939693, -0.34202, -5.76866e-15, 5.16436e-08, 1.4189e-07, -1, -8.5703, 2.48069, 1.79176)
+mesh = SubResource("PlaneMesh_r2xf1")
 
 [node name="character_2" parent="." instance=ExtResource("18_avpqs")]

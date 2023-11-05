@@ -1,10 +1,9 @@
-MeshInstance3D
-AnimatableBody3D
-CSGMesh3D
 CollisionShape3D
 StaticBody3D
+MeshInstance3D
+CSGMesh3D
+AnimatableBody3D
 DirectionalLight3D
-CollisionShape3D
 OmniLight3D
 WorldEnvironment
 Area3D
