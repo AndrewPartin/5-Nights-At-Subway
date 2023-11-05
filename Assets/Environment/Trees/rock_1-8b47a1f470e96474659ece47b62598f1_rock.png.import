@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc55hbiyiegi4"
-path.s3tc="res://.godot/imported/rock_1-8b47a1f470e96474659ece47b62598f1_rock.png-b8b1cb78b28542eebb1211660c4036b2.s3tc.ctex"
+path.s3tc="res://.godot/imported/rock_1-8b47a1f470e96474659ece47b62598f1_rock.png-496e22849d3794352b0ce87ecda59fee.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Assets/Environment/Trees/rock_1-8b47a1f470e96474659ece47b62598f1_rock.png"
-dest_files=["res://.godot/imported/rock_1-8b47a1f470e96474659ece47b62598f1_rock.png-b8b1cb78b28542eebb1211660c4036b2.s3tc.ctex"]
+source_file="res://assets/Environment/Trees/rock_1-8b47a1f470e96474659ece47b62598f1_rock.png"
+dest_files=["res://.godot/imported/rock_1-8b47a1f470e96474659ece47b62598f1_rock.png-496e22849d3794352b0ce87ecda59fee.s3tc.ctex"]
 
 [params]
 
